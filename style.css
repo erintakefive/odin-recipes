@@ -1,16 +1,42 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: antiquewhite;
+    max-width: 600px;
+    margin: auto;
 }
 
 .header {
     text-align: center;
     background-color: black;
     color: antiquewhite;
+    padding: 8px;
+    width: fit-content;
+    margin: 16px auto;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .recipe {
     color: brown;
+    padding: 8px auto;
+    margin: 4px auto;
+    width: fit-content;
+    background-color: blanchedalmond;
+}
+
+.list-center {
+    text-align: center;
+}
+
+ul.recipe-list {
+    display: inline-block;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+p {
+    margin: auto;
+    max-width: 550px;
 }
 
 img {
@@ -39,5 +65,18 @@ a:hover {
 }
 
 footer {
+    background-color: rgb(223, 203, 178);
+    padding: 8px;
     text-align: center;
+    width: fit-content;
+    margin: 24px auto;
+}
+
+.made-by {
+    padding: 8px;
+    text-align: center;
+    width: fit-content;
+    margin: 16px auto;
+    color: grey;
+    font-size: x-small;
 }
